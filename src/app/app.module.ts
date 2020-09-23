@@ -7,6 +7,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatTableModule} from '@angular/material/table';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -38,7 +39,8 @@ import { from } from 'rxjs';
     MatGridListModule,
     MatCardModule,
     MatTabsModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTableModule
     
   ],
   providers: [],

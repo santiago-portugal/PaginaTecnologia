@@ -34,8 +34,8 @@
         </mat-menu>
         <button mat-button [matMenuTriggerFor]="menu2" (click)="ChangeCuarto()">servicios</button>
         <mat-menu #menu2="matMenu">
-            <button mat-menu-item> item 1 </button>
-            <button mat-menu-item> item 2 </button>
+            <button mat-menu-item (click)="ChangeS1()"> item 1 </button>
+            <button mat-menu-item (click)="ChangeS2()"> item 2 </button>
         </mat-menu>
         <button mat-button (click)="ChangeQuinto()">contactenos</button>
         
@@ -78,7 +78,7 @@
                 <app-productos [StatusProduct]=StatusProduct></app-productos>
             </div>
             <div *ngIf="Status==4">
-                <app-servicios></app-servicios>
+                <app-servicios [StatusService]=StatusService></app-servicios>
             </div>
             <div *ngIf="Status==5">
                 <app-contactenos></app-contactenos>

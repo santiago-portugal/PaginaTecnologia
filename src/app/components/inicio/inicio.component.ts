@@ -15,6 +15,7 @@ export class InicioComponent implements OnInit {
   ];
   public Status=0;
   public StatusProduct=0;
+  public StatusService=0;
 
   constructor() { }
 
@@ -90,5 +91,18 @@ export class InicioComponent implements OnInit {
     this.StatusProduct=12;
     console.log('Este es el status luego del cambio', this.StatusProduct)
   }
+  ChangeS1(){
+    console.log('Este es el status', this.StatusProduct)
+    this.Status=4;
+    this.StatusService=13;
+    console.log('Este es el status luego del cambio', this.StatusProduct)
+  }
+   ChangeS2(){
+    console.log('Este es el status', this.StatusService)
+    this.Status=4;
+    this.StatusService=14;
+    console.log('Este es el status luego del cambio', this.StatusService)
+  }
+ 
  
 }
