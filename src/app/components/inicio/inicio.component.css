@@ -1,0 +1,98 @@
+mat-toolbar {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 174, 0) ;
+  }
+
+.navbar {
+    justify-content: space-between;
+}  
+
+mat-button-toggle{
+    
+    padding-right: 1rem;
+}
+
+.final {
+    width: 100px;
+    text-align: left;
+    margin-left: 2rem;
+    background: lightgreen;
+}
+.text-inside-grid{
+   position: absolute;
+   left: 5px;
+   padding-right: 15px;
+}
+
+.parrafoinicio{
+    
+    height: 600px;
+    width: 1000px;
+
+}
+
+.slider{
+    /* align-content: center;
+    align-items: center;
+    align-self: center; */
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    right:60px;
+    left:40px;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+
+
+}
+
+.fondito{
+    width: 100%;
+    background-image: url(C:\Users\USUARIO\Desktop\empresa\pagina\src\assets\image\imagendefondo.png);
+}
+
+.mat-tab-group {
+    margin-bottom : 10px;
+    width: 900px;
+    height: 50px;
+ }
+
+/* mat-grid-tile {
+    background: lightblue;
+  } */
+
+  

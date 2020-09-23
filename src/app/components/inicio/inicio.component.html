@@ -1,0 +1,115 @@
+<mat-grid-list cols="10" rowHeight="50px">
+    <mat-grid-tile colspan="4" rowspan="3" style="background:lightpink">
+        
+        <img src="assets/image/logo empresa.png" width="500" height="160">
+        <!-- <mat-toolbar class="naavbar"></mat-toolbar>
+        <div>
+            <mat-button-toggle>inicio</mat-button-toggle>
+            <mat-button-toggle>quienes somos </mat-button-toggle>
+            <mat-button-toggle>productos</mat-button-toggle>
+            <mat-button-toggle>servicios</mat-button-toggle>
+            <mat-button-toggle>contactenos</mat-button-toggle>
+            
+        
+        </div>
+        </mat-toolbar> -->
+    </mat-grid-tile>
+    <mat-grid-tile colspan="6" rowspan="1" style="background:rgb(3, 255, 200)" >
+    </mat-grid-tile>
+    <!-- <mat-grid-tile colspan="5" rowspan="1" style="background:rgb(255, 3, 37)" >
+    </mat-grid-tile> -->
+
+    <mat-grid-tile colspan="5" rowspan="1" style="text-align: left">
+        <button mat-button (click)="ChangeZero()">inicio</button>
+        <button mat-button (click)="ChangeSecond()">quienes somos</button>
+        <button mat-button [matMenuTriggerFor]="menu" (click)="ChangeTercero()">productos</button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="ChangeP1()"> todos </button>
+            <button mat-menu-item (click)="ChangeP2()"> item 1 </button>
+            <button mat-menu-item (click)="ChangeP3()"> item 2 </button>
+            <button mat-menu-item (click)="ChangeP4()"> item 3 </button>
+            <button mat-menu-item (click)="ChangeP5()"> item 4 </button>
+            <button mat-menu-item (click)="ChangeP6()"> item 5 </button>
+            <button mat-menu-item (click)="ChangeP7()"> item 6 </button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="menu2" (click)="ChangeCuarto()">servicios</button>
+        <mat-menu #menu2="matMenu">
+            <button mat-menu-item> item 1 </button>
+            <button mat-menu-item> item 2 </button>
+        </mat-menu>
+        <button mat-button (click)="ChangeQuinto()">contactenos</button>
+        
+        
+        <!-- <mat-tab-group  mat-align-tabs="end"> 
+        <mat-tab  label="productos">
+
+        </mat-tab> 
+        <mat-tab  label="Second" ></mat-tab> 
+        <mat-tab  label="Third"></mat-tab>
+        <mat-tab  label="four"></mat-tab> 
+        <mat-tab  label="five"></mat-tab>  
+        </mat-tab-group > -->
+        
+    
+    </mat-grid-tile>
+
+    
+        <mat-grid-tile colspan="10" rowspan="12">
+            
+            <div class="fondito" *ngIf="(Status!=2) && (Status!=3) && (Status!=4) && (Status!=5) && (Status!=6)
+            && (Status!=7) && (Status!=8) && (Status!=9) && (Status!=10) && (Status!=11) && (Status!=12)">
+                <div class="parrafoinicio">
+                    <td>
+                        <div class="slider">
+                            <ul>
+                                <li><img src="assets/image/1.jpg" alt=""></li>
+                                <li><img src="assets/image/2.jpg" alt=""></li>
+                                <li><img src="assets/image/3.jpg" alt=""></li>
+                                <li><img src="assets/image/4.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </td>
+                </div>
+            </div>
+            <div *ngIf="Status==2">
+                <app-quienes-somos ></app-quienes-somos>
+            </div>
+            <div *ngIf="Status==3">
+                <app-productos [StatusProduct]=StatusProduct></app-productos>
+            </div>
+            <div *ngIf="Status==4">
+                <app-servicios></app-servicios>
+            </div>
+            <div *ngIf="Status==5">
+                <app-contactenos></app-contactenos>
+            </div>
+            
+            
+            
+        </mat-grid-tile>
+
+    
+    <mat-grid-tile colspan="10" rowspan="2" style="background:rgb(238, 255, 3)" >
+        <DIV class="text-inside-grid">
+            <td>
+            <p>Dirección: Transversal 74B No. 81F-85</p>
+            <p>Celulares: 3022496762 </p>
+            <p>E-mails:  comercial@gtesas.com</p>
+            </td>
+        </DIV>
+            <td>
+                <p>Bogotá - Colombia</p>
+                <p>3154824356</p>
+                <p>ventas@gtesas.org</p>
+
+            </td>
+        
+    </mat-grid-tile>
+    <!-- <mat-grid-tile colspan="7" rowspan="1" rowHeight="10px" style="background:black">
+        <mat-button-toggle>inicio</mat-button-toggle>
+    </mat-grid-tile> -->
+
+    <!-- <mat-grid-tile>
+    <span>Frase motivacional</span>
+    </mat-grid-tile> -->
+</mat-grid-list>
