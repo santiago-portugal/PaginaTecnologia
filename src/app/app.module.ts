@@ -8,6 +8,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatTableModule} from '@angular/material/table';
+import {MatSortModule} from '@angular/material/sort';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -40,9 +42,13 @@ import { from } from 'rxjs';
     MatCardModule,
     MatTabsModule,
     MatMenuModule,
-    MatTableModule
+    MatTableModule, 
+    MatSortModule,
+    MatPaginatorModule
     
   ],
+  exports: [MatSortModule,
+    MatTableModule,],
   providers: [],
   bootstrap: [AppComponent]
 })
