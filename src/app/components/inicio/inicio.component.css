@@ -3,6 +3,16 @@ mat-toolbar {
     background-color: rgb(255, 174, 0) ;
   }
 
+/* .canaleta{
+    gutterSize:1px;
+} */
+/* .lol{
+    -webkit-box-shadow: 0px 24px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 24px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 24px 5px 0px rgba(0,0,0,0.75);
+ } */
+
+
 .navbar {
     justify-content: space-between;
 }  
@@ -20,8 +30,18 @@ mat-button-toggle{
 }
 .text-inside-grid{
    position: absolute;
-   left: 5px;
+   left: 70px;
+   top: 10px;
    padding-right: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #d80011;   
+   font-size: 15px;
+   text-align: center;
+}
+.colorsito{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #d80011;   
+
 }
 
 .parrafoinicio{
@@ -82,7 +102,7 @@ mat-button-toggle{
 
 .fondito{
     width: 100%;
-    background-image: url(C:\Users\USUARIO\Desktop\empresa\pagina\src\assets\image\imagendefondo.png);
+    background-image: url(C:\Users\USUARIO\Desktop\empresa\pagina\src\assets\image\imagendefondo.jpg);
 }
 
 .mat-tab-group {
@@ -90,9 +110,89 @@ mat-button-toggle{
     width: 900px;
     height: 50px;
  }
+ .pruebacolor{
+    background-color: #1c1c1c;
 
-/* mat-grid-tile {
-    background: lightblue;
-  } */
+ }
+ .ajustelogo{
+     position: absolute;
+     left: 10px;
+     
+ }
+ .ajustebtn{
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 5px;
+    min-width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 110px;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+
+    background: rgba(255,73,41,1);
+    background: -moz-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,73,41,1)), color-stop(1%, rgba(255,100,77,1)), color-stop(19%, rgba(255,30,0,1)), color-stop(71%, rgba(255,39,10,1)), color-stop(100%, rgba(255,35,15,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
+    background: linear-gradient(135deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4929', endColorstr='#ff230f', GradientType=1 );
+ }
+ 
+ .barra1{
+    background-color: #1c1c1c;
+
+  
+
+ }
+
+ .barra2{
+    background-color: #1c1c1c;
+
+   
+ }
+
+ .ubicacion{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+
+   
+    
+}
+.celular{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    /* border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000; */
+    
+}
+
+.chat{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    
+}
+
+.fondoqien{
+    width: 100%;
+    background-image: url(C:\Users\USUARIO\Desktop\empresa\pagina\src\assets\image\quienesSomos.jpg);
+}
 
   

@@ -10,6 +10,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatTableModule} from '@angular/material/table';
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatIconModule} from '@angular/material/icon';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -44,7 +45,8 @@ import { from } from 'rxjs';
     MatMenuModule,
     MatTableModule, 
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatIconModule
     
   ],
   exports: [MatSortModule,
