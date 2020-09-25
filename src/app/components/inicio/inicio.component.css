@@ -102,7 +102,7 @@ mat-button-toggle{
 
 .fondito{
     width: 100%;
-    background-image: url(C:\Users\USUARIO\Desktop\empresa\pagina\src\assets\image\imagendefondo.jpg);
+    background-image: url(../../../assets/image/imagendefondo.jpg);
 }
 
 .mat-tab-group {
@@ -192,7 +192,7 @@ mat-button-toggle{
 
 .fondoqien{
     width: 100%;
-    background-image: url(C:\Users\USUARIO\Desktop\empresa\pagina\src\assets\image\quienesSomos.jpg);
+    background-image: url(../../../assets/image/quienesSomos.jpg);
 }
 
   
