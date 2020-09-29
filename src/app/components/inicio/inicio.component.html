@@ -12,19 +12,18 @@
             <button mat-button (click)="ChangeZero()" >inicio</button>
             <button mat-button (click)="ChangeSecond()">quienes somos</button>
             <button mat-button [matMenuTriggerFor]="menu" (click)="ChangeTercero()">productos</button>
-                <mat-menu #menu="matMenu">
-                    <button mat-menu-item (click)="ChangeP1()"> todos </button>
-                    <button mat-menu-item (click)="ChangeP2()"> item 1 </button>
-                    <button mat-menu-item (click)="ChangeP3()"> item 2 </button>
-                    <button mat-menu-item (click)="ChangeP4()"> item 3 </button>
-                    <button mat-menu-item (click)="ChangeP5()"> item 4 </button>
-                    <button mat-menu-item (click)="ChangeP6()"> item 5 </button>
-                    <button mat-menu-item (click)="ChangeP7()"> item 6 </button>
+                <mat-menu #menu="matMenu" style="background-color: chartreuse;">
+                    <button mat-menu-item (click)="ChangeP2()" class="submenu"> item 1 </button>
+                    <button mat-menu-item (click)="ChangeP3()" class="submenu"> item 2 </button>
+                    <button mat-menu-item (click)="ChangeP4()" class="submenu"> item 3 </button>
+                    <button mat-menu-item (click)="ChangeP5()" class="submenu"> item 4 </button>
+                    <button mat-menu-item (click)="ChangeP6()" class="submenu"> item 5 </button>
+                    <button mat-menu-item (click)="ChangeP7()" class="submenu"> item 6 </button>
                 </mat-menu>
             <button mat-button [matMenuTriggerFor]="menu2" (click)="ChangeCuarto()">servicios</button>
                 <mat-menu #menu2="matMenu">
-                    <button mat-menu-item (click)="ChangeS1()"> item 1 </button>
-                    <button mat-menu-item (click)="ChangeS2()"> item 2 </button>
+                    <button mat-menu-item (click)="ChangeS1()" class="submenu"> item 1 </button>
+                    <button mat-menu-item (click)="ChangeS2()" class="submenu"> item 2 </button>
                 </mat-menu>
             <button mat-button (click)="ChangeQuinto()">contactenos</button>
         </div>

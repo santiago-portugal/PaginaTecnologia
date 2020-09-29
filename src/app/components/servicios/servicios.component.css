@@ -27,3 +27,14 @@ font-size: 12px;
 color: black;
 size: 15px;
 }
+
+.fondotabla{
+  background: rgba(226,223,246,1);
+background: -moz-linear-gradient(top, rgba(226,223,246,1) 0%, rgba(207,198,235,1) 26%, rgba(195,187,232,1) 51%, rgba(184,182,231,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,223,246,1)), color-stop(26%, rgba(207,198,235,1)), color-stop(51%, rgba(195,187,232,1)), color-stop(100%, rgba(184,182,231,1)));
+background: -webkit-linear-gradient(top, rgba(226,223,246,1) 0%, rgba(207,198,235,1) 26%, rgba(195,187,232,1) 51%, rgba(184,182,231,1) 100%);
+background: -o-linear-gradient(top, rgba(226,223,246,1) 0%, rgba(207,198,235,1) 26%, rgba(195,187,232,1) 51%, rgba(184,182,231,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,223,246,1) 0%, rgba(207,198,235,1) 26%, rgba(195,187,232,1) 51%, rgba(184,182,231,1) 100%);
+background: linear-gradient(to bottom, rgba(226,223,246,1) 0%, rgba(207,198,235,1) 26%, rgba(195,187,232,1) 51%, rgba(184,182,231,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2dff6', endColorstr='#b8b6e7', GradientType=0 )
+}
