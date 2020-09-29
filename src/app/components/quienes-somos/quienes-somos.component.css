@@ -1,5 +1,75 @@
-/* .quienessomos{
-    width: 100%;
-    background-image: url(C:\Users\USUARIO\Desktop\empresa\pagina\src\assets\image\qienesSomos.jpg);
+.letra1{
+    position: absolute;
+    top: 30px;
+    left:  90px;
+    font-size: 40px;
+    text-align: justify;
+    text-align: center;
+    font-family: fantasy;
+    color: #d80011;
+    width: 400px;
+    height: 50px;
+    
 
-} */
+    background: rgba(254,254,254,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(254,254,254,1)), color-stop(14%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#fefefe', GradientType=1 );
+        
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 3px solid #000000;
+    
+    -webkit-box-shadow: -16px 10px 32px 0px rgba(255,0,0,1);
+    -moz-box-shadow: -16px 10px 32px 0px rgba(255,0,0,1);
+    box-shadow: -16px 10px 32px 0px rgba(255,0,0,1);
+
+}
+
+.letra2{
+    position: absolute;
+    top: 130px;
+    left:  90px;
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e02c3b;
+  width: 400px;
+
+  background: rgba(254,254,254,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(254,254,254,1)), color-stop(14%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: radial-gradient(ellipse at center, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 14%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#fefefe', GradientType=1 );
+    
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 3px solid #000000;
+
+-webkit-box-shadow: -16px 10px 32px 0px rgba(255,0,0,1);
+-moz-box-shadow: -16px 10px 32px 0px rgba(255,0,0,1);
+box-shadow: -16px 10px 32px 0px rgba(255,0,0,1);
+
+    
+}
+
+.somos{
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    width: 300px;
+}
+
+.fondito{
+    width: 100%;
+    background-image: url(../../../assets/image/imagendefondo.jpg);
+}

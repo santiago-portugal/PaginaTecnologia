@@ -3,14 +3,14 @@ mat-toolbar {
     background-color: rgb(255, 174, 0) ;
   }
 
-/* .canaleta{
-    gutterSize:1px;
-} */
-/* .lol{
-    -webkit-box-shadow: 0px 24px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 24px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 24px 5px 0px rgba(0,0,0,0.75);
- } */
+.textlogo{
+    font-size: 50px;
+    color: #c90000;
+    font-family: fantasy;
+    position: absolute;
+    left: 150px;
+    top: 60px;
+}
 
 
 .navbar {
@@ -33,14 +33,14 @@ mat-button-toggle{
    left: 70px;
    top: 10px;
    padding-right: 15px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    color: #d80011;   
    font-size: 15px;
    text-align: center;
 }
 .colorsito{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color: #d80011;   
+   color: #d80011;    
 
 }
 
@@ -195,4 +195,68 @@ mat-button-toggle{
     background-image: url(../../../assets/image/quienesSomos.jpg);
 }
 
+.fodoproductos{
+    background-color: #c90000;
+}
+
+.chat1{
+    position: absolute;
+    top: 160px;
+    left: 165px;
+    font-size: 15px;
+    color: #c90000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.chat2{
+    position: absolute;
+    top: 180px;
+    left: 152px;
+    font-size: 15px;
+    color: #c90000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.ubi1{
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    font-size: 15px;
+    color: #c90000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.ubi2{
+    position: absolute;
+    top: 180px;
+    left: 105px;
+    font-size: 15px;
+    color: #c90000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.cel1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 15px;
+    color: #c90000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.cel2{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    font-size: 15px;
+    color: #c90000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+  
   

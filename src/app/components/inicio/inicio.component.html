@@ -2,22 +2,10 @@
     <mat-grid-tile colspan="4" rowspan="3"style="background-color: #1c1c1c" class="sombrita" >
         
         <img src="assets/image/logo empresa.png" width="145" height="140" class="ajustelogo">
-        <!-- <mat-toolbar class="naavbar"></mat-toolbar>
-        <div>
-            <mat-button-toggle>inicio</mat-button-toggle>
-            <mat-button-toggle>quienes somos </mat-button-toggle>
-            <mat-button-toggle>productos</mat-button-toggle>
-            <mat-button-toggle>servicios</mat-button-toggle>
-            <mat-button-toggle>contactenos</mat-button-toggle>
-            
+        <p class="textlogo">ShadowGear</p>
         
-        </div>
-        </mat-toolbar> -->
     </mat-grid-tile>
-    <!-- <mat-grid-tile colspan="6" rowspan="1" style="background-color: #1c1c1c" >
-    </mat-grid-tile> -->
-    <!-- <mat-grid-tile colspan="5" rowspan="1" style="background:rgb(255, 3, 37)" >
-    </mat-grid-tile> -->
+    
 
     <mat-grid-tile colspan="6" rowspan="3" style="text-align: left" style="background-color: #1c1c1c" class="lol">
         <div class="ajustebtn">
@@ -40,17 +28,13 @@
                 </mat-menu>
             <button mat-button (click)="ChangeQuinto()">contactenos</button>
         </div>
-    
-        
-    
     </mat-grid-tile>
 
-    
-        <mat-grid-tile colspan="10" rowspan="12">
+        <mat-grid-tile colspan="10" rowspan="12" class="fondito">
             
-            <div class="fondito" *ngIf="(Status!=2) && (Status!=3) && (Status!=4) && (Status!=5) && (Status!=6)
-            && (Status!=7) && (Status!=8) && (Status!=9) && (Status!=10) && (Status!=11) && (Status!=12)">
-                <div class="parrafoinicio">
+            <div>
+                <div class="parrafoinicio" *ngIf="(Status!=2) && (Status!=3) && (Status!=4) && (Status!=5) && (Status!=6)
+                && (Status!=7) && (Status!=8) && (Status!=9) && (Status!=10) && (Status!=11) && (Status!=12)">
                     <td>
                         <div class="slider">
                             <ul>
@@ -63,8 +47,8 @@
                     </td>
                 </div>
             </div>
-            <div *ngIf="Status==2" style="width: 100%;">
-                <app-quienes-somos></app-quienes-somos>
+            <div  *ngIf="Status==2">
+                    <app-quienes-somos style="background: cyan;"></app-quienes-somos>
             </div>
             <div *ngIf="Status==3">
                 <app-productos [StatusProduct]=StatusProduct></app-productos>
@@ -81,12 +65,17 @@
         </mat-grid-tile>
     <mat-grid-tile colspan="3" rowspan="5" class="barra1">
         <img src="assets/image/ubicacion.png" width="100" height="100" class="ubicacion">
+        <p class="ubi1" style="text-align: center;"> Bogota D.C , Colombia</p>
+        <p class="ubi2" style="text-align: center;"> Direccion: Cr 6b este #49 26 sur </p>
 
 
     </mat-grid-tile>
     
     <mat-grid-tile colspan="4" rowspan="5" class="pruebacolor" >
-        <img src="assets/image/celular.png" width="100" height="100" class="celular">
+        <img src="assets/image/celular.png" width="100" height="100" >
+        <p class="cel1" style="text-align: center;"> Cel: 3043296723 </p>
+        <p class="cel2" style="text-align: center;"> Cel: 3193336236 </p>
+ 
         <DIV class="text-inside-grid">
             <td>
                 <p>Descubra cuál es la solución de informatica adecuada para usted</p>
@@ -96,6 +85,8 @@
 
     <mat-grid-tile colspan="3" rowspan="5" class="barra2">
         <img src="assets/image/chat.png" width="100" height="100" class="celular">
+        <p class="chat1" style="text-align: center;"> ventas@shadowgear.com </p>
+        <p class="chat2" style="text-align: center;"> comercial@shadowgear.com </p>
 
 
     </mat-grid-tile>
