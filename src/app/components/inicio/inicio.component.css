@@ -259,11 +259,28 @@ mat-button-toggle{
     
 }
 
-/* .submenu{
-    background-color: #E0E0E0;
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
+.frasesota{
+    color: #c90000;
+    font-size: 30px;
+    font-family: fantasy;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    text-align: center;
+    width: 800px;
+    line-height: 50px;
+}
 
+.autor{
+    color: #c90000;
+    font-size: 25px;
+    font-family: fantasy;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    text-align: center;
+    width: 500px;
+    line-height: 50px;
+}
 
 
