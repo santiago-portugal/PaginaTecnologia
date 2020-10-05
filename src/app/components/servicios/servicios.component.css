@@ -1,15 +1,13 @@
 table {
     width: 1000px;
-    
+    color: #000000;
   }
 
 .azulito{
   background-color:#c90000c7;
   font-size: 12px;
 
-/* border-radius: 10px 10px 0px 0px;
--moz-border-radius: 10px 10px 0px 0px;
--webkit-border-radius: 10px 10px 0px 0px; */
+
 border: 0px solid #000000;
 color: black;
 height: 50px;
@@ -29,6 +27,8 @@ size: 15px;
 }
 
 .fondotabla{
+
+  color: #000000;
   background: rgba(226,223,246,1);
 background: -moz-linear-gradient(top, rgba(226,223,246,1) 0%, rgba(207,198,235,1) 26%, rgba(195,187,232,1) 51%, rgba(184,182,231,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,223,246,1)), color-stop(26%, rgba(207,198,235,1)), color-stop(51%, rgba(195,187,232,1)), color-stop(100%, rgba(184,182,231,1)));

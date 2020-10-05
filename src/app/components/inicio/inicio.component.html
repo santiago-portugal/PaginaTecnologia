@@ -11,14 +11,15 @@
         <div class="ajustebtn">
             <button mat-button (click)="ChangeZero()" >inicio</button>
             <button mat-button (click)="ChangeSecond()">quienes somos</button>
-            <button mat-button [matMenuTriggerFor]="menu" (click)="ChangeTercero()">productos</button>
+            <button mat-button [matMenuTriggerFor]="menu" (click)="ChangeTercero()" style="background-color: ch;">productos</button>
                 <mat-menu #menu="matMenu" style="background-color: chartreuse;">
-                    <button mat-menu-item (click)="ChangeP2()" class="submenu"> item 1 </button>
-                    <button mat-menu-item (click)="ChangeP3()" class="submenu"> item 2 </button>
-                    <button mat-menu-item (click)="ChangeP4()" class="submenu"> item 3 </button>
-                    <button mat-menu-item (click)="ChangeP5()" class="submenu"> item 4 </button>
-                    <button mat-menu-item (click)="ChangeP6()" class="submenu"> item 5 </button>
-                    <button mat-menu-item (click)="ChangeP7()" class="submenu"> item 6 </button>
+                    <!-- <link rel="stylesheet" href="./inicio/botones.scss"> -->
+                    <button mat-menu-item (click)="ChangeP2()" class="btn btn--1"> item 1 </button>
+                    <button mat-menu-item (click)="ChangeP3()" class="btn btn--2"> item 2 </button>
+                    <button mat-menu-item (click)="ChangeP4()" class="btn btn--3"> item 3 </button>
+                    <button mat-menu-item (click)="ChangeP5()" class="btn btn--4"> item 4 </button>
+                    <button mat-menu-item (click)="ChangeP6()" class="btn btn--1"> item 5 </button>
+                    <button mat-menu-item (click)="ChangeP7()" class="btn btn--2"> item 6 </button>
                 </mat-menu>
             <button mat-button [matMenuTriggerFor]="menu2" (click)="ChangeCuarto()">servicios</button>
                 <mat-menu #menu2="matMenu">
@@ -71,9 +72,9 @@
     </mat-grid-tile>
     
     <mat-grid-tile colspan="4" rowspan="5" class="pruebacolor" >
-        <img src="assets/image/celular.png" width="100" height="100" >
-        <p class="cel1" style="text-align: center;"> Cel: 3043296723 </p>
-        <p class="cel2" style="text-align: center;"> Cel: 3193336236 </p>
+        <img src="assets/image/celular.png" width="100" height="100" style="position: absolute; top: 50px;">
+        <p class="cel1" style="text-align: center;"style="position: absolute; top: 160px;"> Cel: 3043296723 </p>
+        <p class="cel2" style="text-align: center;" style="position: absolute; top: 180px;"> Cel: 3193336236 </p>
  
         <DIV class="text-inside-grid">
             <td>

@@ -3,7 +3,7 @@ mat-toolbar {
     background-color: rgb(255, 174, 0) ;
   }
 
-.textlogo{
+.textlogo{   
     font-size: 50px;
     color: #c90000;
     font-family: fantasy;
@@ -259,18 +259,11 @@ mat-button-toggle{
     
 }
 
-.submenu{
-    background: rgba(255,73,41,1);
-    background: -moz-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,73,41,1)), color-stop(1%, rgba(255,100,77,1)), color-stop(19%, rgba(255,30,0,1)), color-stop(71%, rgba(255,39,10,1)), color-stop(100%, rgba(255,35,15,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
-    background: linear-gradient(135deg, rgba(255,73,41,1) 0%, rgba(255,100,77,1) 1%, rgba(255,30,0,1) 19%, rgba(255,39,10,1) 71%, rgba(255,35,15,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4929', endColorstr='#ff230f', GradientType=1 );
-
+/* .submenu{
+    background-color: #E0E0E0;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-  
-  
+} */
+
+
+
